@@ -4,9 +4,18 @@ export const projects = [
     description: "A Mern Project where users can share interesting places.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
+    code: 'https://github.com/KnotHERE16/loveplace_web',
+    visit: null,
+    id: 1,
+  },
+  {
+    title: 'My Anime List',
+    description: "A site that contain list of anime/manga that I have read",
+      image: '/images/myanime.png',
+      tags: ['React', 'TailwindCss'],
+    code: 'https://github.com/KnotHERE16/myanime',
+    visit: 'https://anime.kelvinaung.com',
+    id: 2,
   },
   {
     title: 'Coming Soon',
@@ -17,12 +26,4 @@ export const projects = [
     visit: '',
     id: 0,
   }
-];
-
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
 ];
